@@ -1,0 +1,21 @@
+Motivation
+- having a constructor with many arguments is inefficicent
+-> opt for piecewise construction
+
+Builder
+-> an API for piecewise construction of an object
+-> user calls builder functions to construct elements of Director
+
+Optimizations
+-> Fluent Builder
+    -> allows for builder.constructElement(arg1).constructElement(arg2) syntax
+        - achieved by returning a reference to the builder in the construct:
+        -> Builder& construction(arg) {// do something; return *this;}
+    -> allows type conversion from Builder to Director
+        - achieved by overloading the Director in Builder class:
+        -> operator Director() const {return root;}
+        if conversion is the last operation, it might be more efficient to move root
+            -> operator Director() const {return std::move(root);
+    -> you can force the use of the builder by making the Director constructor private
+        - must make builder a friend class
+
