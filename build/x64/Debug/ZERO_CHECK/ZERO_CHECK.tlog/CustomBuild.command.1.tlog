@@ -1,0 +1,10 @@
+^C:\USERS\RANDHIR\DOCUMENTS\DESIGNPATTERNS\DESIGNPATTERNBOILERPLATECPP\BUILD\CMAKEFILES\1FA90AC4839F9BFEB0405848DC662A14\GENERATE.STAMP.RULE
+setlocal
+C:\Users\Randhir\anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Randhir/Documents/DesignPatterns/DesignPatternBoilerplateCpp -BC:/Users/Randhir/Documents/DesignPatterns/DesignPatternBoilerplateCpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Randhir/Documents/DesignPatterns/DesignPatternBoilerplateCpp/build/designpatterns.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

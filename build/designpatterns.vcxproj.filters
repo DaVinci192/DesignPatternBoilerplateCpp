@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseBuilder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseDestinationBuilder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseOriginBuilder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseSpecificationBuilder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D3D68C10-A56D-3A10-B102-4D428DC66FCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BFADA54D-13D2-3DB4-939F-298334508F10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
