@@ -6,25 +6,15 @@
 #include "builder/example/suitcaseSpecificationBuilder.hpp"
 #include "builder/example/suitcaseOriginBuilder.hpp"
 #include "builder/example/suitcaseDestinationBuilder.hpp"
+#include "factory/example/DessertFactory.hpp"
+#include "factory/example/MealFactory.hpp"
 
 
 int main()
 {
-    Suitcase s = Suitcase::create()
-        .has()
-            .id(24)
-            .with_weight(30)
-            .and_dimensions(2, 2, 5)
-        .arrived()
-            .from("Ottawa, Canada")
-            .at("12h00")
-            .on("10/27/2021")
-        .departs()
-            .to("Vancouver, Canada")
-            .at("15h00")
-            .on("10/27/2021");
-    
-    std::cout << s << std::endl;
+    MealFactory mf;
+    auto cake = mf.make("Cake");
+
 
     return 0;
 }

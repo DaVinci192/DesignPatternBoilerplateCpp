@@ -308,6 +308,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseDestinationBuilder.hpp" />
     <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseOriginBuilder.hpp" />
     <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseSpecificationBuilder.hpp" />
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\factory\example\dessert.hpp" />
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\factory\example\dessertFactory.hpp" />
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\factory\example\mealFactory.hpp" />
     <ClCompile Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>

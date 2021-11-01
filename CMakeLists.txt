@@ -13,6 +13,9 @@ file(GLOB SOURCES
     src/builder/example/suitcaseOriginBuilder.hpp
     src/builder/example/suitcaseDestinationBuilder.hpp
     src/builder/example/suitcaseSpecificationBuilder.hpp
+    src/factory/example/dessert.hpp
+    src/factory/example/dessertFactory.hpp
+    src/factory/example/mealFactory.hpp
 
 )
 list(APPEND SOURCES "src/main.cpp")

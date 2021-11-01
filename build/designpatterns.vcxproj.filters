@@ -27,6 +27,15 @@
     <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\builder\example\suitcaseSpecificationBuilder.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\factory\example\dessert.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\factory\example\dessertFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\src\factory\example\mealFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Randhir\Documents\DesignPatterns\DesignPatternBoilerplateCpp\CMakeLists.txt" />
